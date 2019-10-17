@@ -1,10 +1,10 @@
-import { format, parseISO } from "date-fns";
-import enUS from "date-fns/locale/en-US";
-import Mail from "../../lib/Mail";
+import { format, parseISO } from 'date-fns';
+import enUS from 'date-fns/locale/en-US';
+import Mail from '../../lib/Mail';
 
 class CancellationMail {
   get key() {
-    return "CancellationMail";
+    return 'CancellationMail';
   }
 
   async handle({ data }) {
@@ -12,8 +12,8 @@ class CancellationMail {
 
     await Mail.sendMail({
       to: `${appointment.provider.name} <${appointment.provider.email}>`,
-      subject: "Appointment canceled",
-      template: "cancellation",
+      subject: 'Appointment canceled',
+      template: 'cancellation',
       context: {
         provider: appointment.provider.name,
         user: appointment.user.name,
@@ -21,10 +21,10 @@ class CancellationMail {
           parseISO(appointment.date),
           "'day' dd 'of' MMMM', at' H:mm'h'",
           {
-            locale: enUS
+            locale: enUS,
           }
-        )
-      }
+        ),
+      },
     });
   }
 }

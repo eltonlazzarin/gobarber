@@ -1,6 +1,6 @@
-import Bee from "bee-queue";
-import CancellationMail from "../app/jobs/CancellationMail";
-import redisConfig from "../config/redis";
+import Bee from 'bee-queue';
+import CancellationMail from '../app/jobs/CancellationMail';
+import redisConfig from '../config/redis';
 
 const jobs = [CancellationMail];
 class Queue {
@@ -14,9 +14,9 @@ class Queue {
     jobs.forEach(({ key, handle }) => {
       this.queues[key] = {
         bee: new Bee(key, {
-          redis: redisConfig
+          redis: redisConfig,
         }),
-        handle
+        handle,
       };
     });
   }
@@ -28,7 +28,7 @@ class Queue {
   processQueue() {
     jobs.forEach(job => {
       const { bee, handle } = this.queues[job.key];
-      bee.on("failed", this.handleFailure).process(handle);
+      bee.on('failed', this.handleFailure).process(handle);
     });
   }
 
