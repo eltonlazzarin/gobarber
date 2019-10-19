@@ -6,7 +6,6 @@ import persistReducers from './persistReducers';
 
 import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
-import storage from 'redux-persist/lib/storage';
 
 const sagaMonitor =
   process.env.NODE_ENV === 'development'
