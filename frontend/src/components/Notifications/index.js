@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { MdNotifications } from 'react-icons/md';
 import { parseISO, formatDistance } from 'date-fns';
-import { enUS } from 'date-fns/locale';
+import enUS from 'date-fns/locale/en-US';
 
 import api from '~/services/api';
 
