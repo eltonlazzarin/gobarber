@@ -99,13 +99,9 @@ class AppointmentController {
      */
     const user = await User.findByPk(req.userId);
 
-    const formattedDate = format(
-      hourStart,
-      "'day' dd 'of' MMMM', at' HH:mm'h'",
-      {
-        locale: enUS,
-      }
-    );
+    const formattedDate = format(hourStart, "MMMM dd', at' HH'h'mm", {
+      locale: enUS,
+    });
 
     await Notification.create({
       content: `New appointment from ${user.name} to ${formattedDate}`,
@@ -159,7 +155,7 @@ class AppointmentController {
       context: {
         provider: appointment.provider.name,
         user: appointment.user.name,
-        date: format(appointment.date, "'day' dd 'of' MMMM', at' H:mm'h'", {
+        date: format(appointment.date, "MMMM dd', at' HH'h'mm", {
           locale: enUS,
         }),
       },
