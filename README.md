@@ -16,6 +16,8 @@
   
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/gobarber">
 
+  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/gobarber">
+
 This projects was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
 ### :rocket: Backend Technologies
