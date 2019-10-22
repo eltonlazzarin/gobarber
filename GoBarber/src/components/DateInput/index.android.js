@@ -6,7 +6,6 @@ import enUS from 'date-fns/locale/en-US';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import { Container, DateButton, DateText } from './styles';
-import { select } from 'redux-saga/effects';
 
 export default function DateInput({ date, onChange }) {
   const dateFormatted = useMemo(

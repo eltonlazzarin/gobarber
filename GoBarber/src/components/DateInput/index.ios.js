@@ -18,7 +18,7 @@ export default function DateInput({ date, onChange }) {
   return (
     <Container>
       <DateButton onPress={() => setOpened(!opened)}>
-        <Icon nama="event" color="#fff" size={20} />
+        <Icon name="event" color="#fff" size={20} />
         <DateText>{dateFormatted}</DateText>
       </DateButton>
 
