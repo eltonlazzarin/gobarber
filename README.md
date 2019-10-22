@@ -115,7 +115,7 @@ This project is under the MIT license.
 ## :rocket: Mobile Technologies
 
 <p align="center">
-<img alt="GoBarber Web" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberMobile.gif">
+<img alt="GoBarber Web" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberMobile.gif" hight="380" width="350">
 </p>
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
