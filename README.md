@@ -67,6 +67,8 @@ This project is under the MIT license.
 
 ### :rocket: Frontend Technologies (WebApp)
 
+<img alt="GoBarber Web" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberWeb.gif">
+
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
 - [ReactJS](https://reactjs.org/)
@@ -111,6 +113,10 @@ This project is under the MIT license.
 ---
 
 ## :rocket: Mobile Technologies
+
+<p align="center">
+<img alt="GoBarber Web" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberMobile.gif">
+</p>
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
