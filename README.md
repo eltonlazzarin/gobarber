@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoBarber API" src="https://res.cloudinary.com/lukemorales/image/upload/v1564533051/readme_logos/gobarber_hg5ddx.png" />
+    <img alt="GoBarber" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarber_.png" />
     <br>
     GoBarber FullStack
 </h1>
