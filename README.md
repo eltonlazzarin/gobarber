@@ -117,12 +117,12 @@ This project is under the MIT license.
 ## :rocket: Mobile Technologies
 
 <p align="center">
-<img alt="GoBarber Web" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberMobile.gif" hight="380" width="350">
+<img alt="GoBarber Mobile" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarberMobile.gif" hight="380" width="350">
 </p>
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
-- [ReactJS](https://reactjs.org/)
+- [React Native](https://facebook.github.io/react-native/)
 - [babel-plugin-root-import](https://github.com/entwicklerstube/babel-plugin-root-import)
 - [react-navigation](https://reactnavigation.org/)
 - [react-native-gesture-handler](https://github.com/kmagiera/react-native-gesture-handler)
@@ -134,7 +134,6 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 - [Immer](https://github.com/immerjs/immer)
 - [date-fns](https://date-fns.org/)
 - [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
-- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 - [Reactotron](https://infinite.red/reactotron)
 - [reactotron-redux](https://github.com/infinitered/reactotron-redux)
