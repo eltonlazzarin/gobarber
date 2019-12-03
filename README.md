@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> 
     <img alt="GoBarber" src="https://github.com/eltonlazzarin/gobarber/blob/master/public/gobarber_.png" />
     <br>
     GoBarber FullStack
