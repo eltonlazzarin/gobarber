@@ -20,7 +20,7 @@
 
 This projects was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
-### :computer: Backend Technologies
+### :rocket: Backend Technologies
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
